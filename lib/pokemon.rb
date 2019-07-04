@@ -24,6 +24,7 @@ class Pokemon
     pokemon_inst = Pokemon.new(id: id, name: name, type: type, hp: hp, db: database_connection)
   end
     
+  def self.alter_hp
   
   
 end
