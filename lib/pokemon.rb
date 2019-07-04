@@ -16,7 +16,7 @@ class Pokemon
   end
   
   def self.find(id, database_connection)
-    database_connection
+    database_connection.execute("")
     
   
   
