@@ -11,7 +11,8 @@ class Pokemon
     @hp = hp
   end
   
-  def save
+  def self.save
+    
   
   
 end
